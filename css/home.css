@@ -1,0 +1,137 @@
+body{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+table{
+    margin-top: 10px;
+    float: right;
+}
+header a img{
+    width: 100%;
+}
+#header1{
+    
+    background-color: #336699;
+    color: white;
+    font-size: 10px;
+    width: 100%;
+    height: 40px;
+}
+header ul {
+    margin-top: 2px;
+}
+header td a{
+    list-style: none;
+    color: white;
+    border-right: 1px solid white;
+    font-size: 12px;
+    text-decoration: none;
+    padding-right: 10px;
+    padding-left: 10px;
+    
+}
+.hedre3{
+    display: inline-block;
+}
+#img1{
+    margin-top: 3px;
+}
+#grad{
+    width: 100%;
+    height: 25px;
+    background-image: linear-gradient(to right,rgb(179, 184, 248),blue,blue,rgb(179, 184, 248));
+    /*background-color:linear-gradient(to right,white,blue,white);*/
+}
+#br1{
+    border-right: none;
+}
+div ul li {
+    list-style: none;
+    display: inline-block;
+    color: white;
+    font-size: 20px;
+}
+li{
+    list-style: none;
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+nav{
+    float: left;
+    margin-top: 5px;
+    width: 20%;
+    height: 650px;
+    background-color: #336699;
+}
+nav ul{
+margin-left: -50px;
+color: white;
+
+}
+nav li a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    list-style: none;
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+}
+nav li{
+    margin-top: 7px;
+}
+nav img{
+    width: 90%;
+    height: 90px;
+    text-align: center;
+}
+nav #imgLogo1{
+    width: 50%;
+}
+nav #p1{
+    margin-top: auto;
+    color: wheat;
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+section{
+    margin-top: 5px;
+    width: 60%;
+    height: 650px;
+    background-color: #D5EAFF;
+    float: left;
+    overflow: auto;
+
+}
+aside{
+    margin-top: 5px;
+    width: 20%;
+    height: 650px;
+    background-color: #EFF8FF;
+    float: left;
+}
+aside fieldset legend{
+    font-family: sans-serif;
+    font-size: 14px;
+    text-align: center;
+    color: #E38C00;
+    font-weight:bolder;
+}
+aside fieldset{
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+    width: 75%;
+}
+aside fieldset a{
+    text-decoration: none;
+    color: black;
+}
+aside img{
+    margin-top: 20px;
+}
+aside #p2{
+    font-size: 12px;
+    color: black;
+    text-decoration: none;
+
+}

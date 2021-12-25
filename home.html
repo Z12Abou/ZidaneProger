@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ONEE-HOME</title>
+    <link rel="stylesheet" href="css/home.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
+</head>
+<header>
+    <div id="header1">
+        <h2 class="hedre3" id="hedh3">Royaume du Maroc </h2>
+        <table class="hedre3">
+            <tr>
+                <td><a href="#fffS">Acucule</a></td>
+                <td><a href="#fffS">Apples a candidature</a></td>
+                <td><a href="#fffS">Recrutement</a></td>
+                <td><a href="#fffS">Plan du site</a></td>
+                <td><a href="#fffS">contact</a></td>
+                <td><a id="br1" href="#fffS">Liens</a></td>
+            </tr>
+        </table>
+    </div>
+    <a href="#ffff">
+        <img id="img1" src="photo/onee.jpg" alt="err">
+    </a>
+    <div id="grad">
+        <center>
+        <ul type="square">
+            <a href="">
+                <li> &bull; Eau Urbaine</li>
+            </a>
+            <a href="">&bull;
+                <li>&bull; Eau Rurale</li>
+            </a>
+            <a href="">
+                <li>&bull; Assainissement</li>
+            </a>
+        </ul>
+    </center>
+    </div>
+</header>
+<nav>
+    <ul id="ul2">
+        <li><a href="#link1" id="link1">&bull; Présentation</a></li>
+        <li><a href="#link2" id="link2">&bull; Coopération</a></li>
+        <li><a href="#link3" id="link3">&bull; Qualité</a></li>
+        <li><a href="#link4" id="link4">&bull; Régions</a></li>
+        <li><a href="#link5" id="link5">&bull; Presse</a></li>
+        <li><a href="#link6" id="link6">&bull; Médiathèque</a></li>
+    </ul>
+    <br>
+    <center>
+        <img src="photo/index-Eau.jpg" alt="err"><!--index-Eau.jpg-->
+        <img src="photo/e-paiement-3.jpg" alt="err">
+        <img src="photo/crc.jpg" alt="err">
+        <img id="imgLogo1" src="photo/who_logo_en.gif" alt="err">
+        <p id="p1">Complexe Bouregreg <br> Centre Collaborateur de <br> l'OMS</p>
+    </center>
+</nav>
+<section id="load1">
+</section>
+<aside>
+    <fieldset>
+
+        <legend> Espace Client </legend>
+        <a href=""> Abounne-ment <br>
+            Facturation</a>
+    </fieldset>
+    <fieldset>
+
+        <legend> Espace Entreprise </legend>
+        <a href=""> Achats <br>
+            Grands projets</a>
+    </fieldset>
+    <fieldset>
+
+        <legend> Grand Public </legend>
+        <a href=""> Sensibilisation <br> Espace Enfants <br> Publications
+        </a>
+    </fieldset>
+    <center>
+        <img src="photo/logo2.png" alt="err">
+        <br>
+        <a href="" id="p2">
+            Le laboratoire Central de l’office
+            accrédité ISO 17025
+        </a>
+    </center>
+</aside>
+
+
+<script type="text/javascript">
+    $(document).ready(function() {
+
+        $('#load1').load('/html/page1.html');
+
+    });
+</script>
+<script type="text/javascript">
+    $(document).ready(function(){
+      $("#link1").click(function(){
+        $('#load1').load('/html/page1.html');
+      });
+      $("#link2").click(function(){
+        $('#load1').load('/html/page2.html');
+      });
+      $("#link3").click(function(){
+        $('#load1').load('/html/page3.html');
+      });
+      $("#link4").click(function(){
+        $('#load1').load('/html/page4.html');
+      });
+      $("#link5").click(function(){
+        $('#load1').load('/html/page5.html');
+      });
+      $("#link6").click(function(){
+        $('#load1').load('../html/page6.html');
+      });
+    });
+    </script>
+   
+<body>
+
+</body>
+
+</html>
